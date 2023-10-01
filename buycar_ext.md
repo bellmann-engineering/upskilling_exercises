@@ -2,7 +2,7 @@
 
 ## Objective
 
-Extend the existing C program for evaluating traditional cars to include the capability to evaluate electric cars (e-cars) as an add-on feature. This extension assumes that students have already implemented the basic version of the program for traditional cars.
+Extend the existing C program for evaluating traditional cars. Add the feature to evaluate electric cars (e-cars). 
 
 The program should do the following:
 
