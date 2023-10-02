@@ -1,4 +1,4 @@
-# Exercise: Automobile Decision Maker (Euros)
+# Exercise: Automobile Decision Maker
 
 ## Objective
 
