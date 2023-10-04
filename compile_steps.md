@@ -11,7 +11,7 @@ Create a new file called `hello.c` and add the following C code:
 
 int main()
 {
-    printf("Hello, World!\n");
+    printf("Welcome to the world of sports cars!\n");
     return 0;
 }
 ```
