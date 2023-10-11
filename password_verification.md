@@ -28,3 +28,19 @@ If the user exceeds the allowed attempts without entering the correct password, 
 Use appropriate conditional statements and loop control to ensure that the program continues running until the user decides to exit.
 
 Provide suitable messages to guide the user through the process.
+
+**Optional**
+
+Additional requirements:
+
+1. After successfully logging in, provide the user with an option to reset the password.
+
+2. If the user chooses to reset the password, they should be prompted to enter the current password for verification.
+
+3. After successful verification of the current password, allow the user to set a new password. The new password should meet certain criteria, such as a minimum length and complexity requirements (e.g., containing both letters and numbers).
+
+4. Update the predefined password with the new password after a successful reset.
+
+5. Ensure that the program continues to ask the user for the password after a reset, and the new password is required to be entered for subsequent logins.
+
+Provide appropriate messages and instructions to guide the user through the reset process.
