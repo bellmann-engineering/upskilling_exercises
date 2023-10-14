@@ -41,13 +41,13 @@ Your friend, Alex, is planning to buy a new car. He wants to estimate the total 
 ```plaintext
 Welcome to the Car Cost Calculator!
 
-Enter the initial purchase price of the car: $25000
-Enter monthly fuel expenses: $200
-Enter monthly maintenance costs: $75
+Enter the initial purchase price of the car: 25000
+Enter monthly fuel expenses: 200
+Enter monthly maintenance costs: 75
 
 Total Cost of Ownership Over 5 Years:
-Purchase Price: $25,000
-Fuel Costs: $12,000
-Maintenance Costs: $4,500
+Purchase Price: 25000
+Fuel Costs: 12000
+Maintenance Costs: 4500
 
-Total Cost: $41,500
+Total Cost: 41.500 €
