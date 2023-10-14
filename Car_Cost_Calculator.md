@@ -51,7 +51,9 @@ Fuel Costs: 12000
 Maintenance Costs: 4500
 
 Total Cost: 41.500 €
+```
 
 ## Additional Task (optional)
 
-Provide the option for financing the car. If the user chooses to calculate financing costs, prompt them to enter the duration of financing in months and then calculate (using the purchase price) and display the financing costs. The interest rate for financing is a fixed constant of 5% (0.05).
+Provide the option for financing the car. If the user chooses to calculate financing costs, prompt them to enter the duration of financing in months and then calculate (using the purchase price) and display the financing costs. 
+The interest rate for financing is a fixed constant of 5% (0.05).
