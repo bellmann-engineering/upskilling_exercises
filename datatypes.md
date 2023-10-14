@@ -15,16 +15,17 @@ In this exercise, we will use the C++ `sizeof` operator and the `limits.h` heade
 The program should produce output similar to the following (the sizes may vary depending on your operating system):
 
 ```code
+Size of char: 1 bytes
 Size of int: 4 bytes
 Size of float: 4 bytes
 Size of double: 8 bytes
-Size of long: 8 bytes
+Size of long: 4 bytes
 
 Range of char: -128 to 127
 Range of int: -2147483648 to 2147483647
 Range of float: 1.17549e-38 to 3.40282e+38
 Range of double: 2.22507e-308 to 1.79769e+308
-Range of long: -9223372036854775808 to 9223372036854775807
+Range of long: -2147483648 to 2147483647
 ```
 
 ## Tips
