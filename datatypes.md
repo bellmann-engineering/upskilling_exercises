@@ -8,7 +8,7 @@ In this exercise, we will use the C++ `sizeof` operator and the `limits.h` heade
 
 2. Print the sizes of these data types in bytes using the `std::cout` statement.
 
-3. Extend the program using constants from `limits.h` to find out the range of these datatypes. 
+3. Extend the program using constants from the headers `limits.h` and `cfloat` to find out the range of these datatypes. 
 
 ## Sample Output
 
@@ -30,6 +30,7 @@ Range of long: -9223372036854775808 to 9223372036854775807
 ## Tips
 
 - Use the `<iostream>` header for input and output operations.
+- Include `limits.h` and `cfloat` (yes, without .h)
 - To access the `limits.h` constants, use the `INT_MAX`, `FLT_MAX`, `DBL_MAX`, and `LONG_MAX` constants for `int`, `float`, `double`, and `long`, respectively.
   
 - `CHAR_MIN` and `CHAR_MAX` for `char`.
