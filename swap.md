@@ -18,12 +18,10 @@ Here's a template to help you get started:
 ```cpp
 #include <iostream>
 
-// Function to swap two integers using pointers
-void swapIntegers(int* ptr1, int* ptr2) {
-    // Implement the swapping logic here
-}
+void swapIntegers(int* ptr1, int* ptr2);
 
-int main() {
+int main()
+{
     int num1, num2;
     int* ptr1 = &num1;
     int* ptr2 = &num2;
@@ -36,3 +34,15 @@ int main() {
 
     return 0;
 }
+
+// Function to swap two integers using pointers
+void swapIntegers(int* ptr1, int* ptr2)
+{
+    // Implement the swapping logic here
+}
+
+ ```
+
+## Optional:
+What changes if we change the function to
+`void swapIntegers(int& ptr1, int& ptr2)` ... ?
