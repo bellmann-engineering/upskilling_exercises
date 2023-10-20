@@ -40,3 +40,20 @@ int main()
 
     return 0;
 }
+```
+
+## Optional:
+
+### Resizing
+
+1. **User Choice to Grow the Array:**
+   - Ask the user if they want to grow the array.
+
+2. **Resizing the Array:**
+   - If the user chooses to resize the array, prompt them to enter the new size of the array and perform the resizing, copying the existing elements to the new array.
+
+3. **Display the Sum of the Resized Array:**
+   - Display the sum of the elements in the resized array.
+
+4. **Deallocate Memory:**
+   - Deallocate the dynamically allocated memory for both the initial and resized arrays.
