@@ -1,21 +1,24 @@
-Exercise: Pointer Size Demonstration
+# Pointer Size Demonstration Exercise
 
-In this exercise, you will work with pointers of different data types (int*, char*, float*, double*) and use the sizeof operator to determine the size of these pointers.
+In this exercise, you will work with pointers of different data types (int\*, char\*, float\*, double\*) and use the `sizeof` operator to determine the size of these pointers.
 
-    Declare and initialize the following variables of different data types:
-        An integer variable (int) with an initial value.
-        A character variable (char) with an initial value.
-        A floating-point variable (float) with an initial value.
-        A double-precision variable (double) with an initial value.
+## Instructions
 
-    Declare pointers for each of the above data types. For example, declare an int* to store the address of the integer variable, a char* for the character variable, and so on.
+1. Declare and initialize the following variables of different data types:
+   - An integer variable (`int`) with an initial value.
+   - A character variable (`char`) with an initial value.
+   - A floating-point variable (`float`) with an initial value.
+   - A double-precision variable (`double`) with an initial value.
 
-    Store the addresses of the corresponding variables in the respective pointers. Use the address-of operator & to obtain the address of a variable and assign it to the pointer.
+2. Declare pointers for each of the above data types. For example, declare an `int*` to store the address of the integer variable, a `char*` for the character variable, and so on.
 
-    Use the sizeof operator to determine the size (in bytes) of each of the pointers.
+3. Store the addresses of the corresponding variables in the respective pointers. Use the address-of operator `&` to obtain the address of a variable and assign it to the pointer.
 
-    Display the size of each pointer using printf or a similar method.
+4. Use the `sizeof` operator to determine the size (in bytes) of each of the pointers.
 
-Your goal is to understand how the size of a pointer varies depending on the data type it points to. Note that the size of pointers may vary based on the platform and compiler you are using, but typically, on most modern systems, they are 4 bytes on a 32-bit system and 8 bytes on a 64-bit system.
+5. Display the size of each pointer using `printf` or a similar method.
+
 
 Feel free to write a C or C++ program to complete this exercise and observe the differences in pointer sizes.
+
+Have fun exploring the sizes of pointers for different data types!
