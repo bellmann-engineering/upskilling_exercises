@@ -9,7 +9,7 @@ Here's a basic outline of the program:
 3. Implement a function `swapIntegers` that takes two integer pointers as parameters and swaps the values they point to.
 4. In the `main` function, prompt the user to input two integers.
 5. Call the `swapIntegers` function to swap the values of `num1` and `num2` using pointers.
-6. Display the swapped values of `num1` and `num2.
+6. Display the swapped values of `num1` and `num2`.
 
 Your program should output the swapped values of the two integers.
 
