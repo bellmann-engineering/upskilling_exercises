@@ -47,22 +47,29 @@ Write a C++ program that creates a `BankAccount` class with member variables and
 
 ## Optional Task: Personal Credit Line Feature
 
-    Modify the BankAccount class to include an additional member variable for a predefined credit limit.
+1. **Modify the BankAccount Class:**
 
-    Implement methods to perform the following actions within the BankAccount class:
-        get_credit_limit(): Display the available credit limit.
-        make_withdrawal_with_credit(amount): Allow users to withdraw an amount up to their credit limit, incurring interest on the negative balance. Ensure that users cannot exceed the credit limit.
-        make_repayment(amount): Allow users to make repayments to reduce their negative balance and the interest incurred.
+   - Update the `BankAccount` class to include an additional member variable for a predefined credit limit.
 
-    Update the interactive program to include these new methods in the menu:
-        Check account balance
-        Make a withdrawal (including credit line)
-        Make a deposit
-        Make a repayment
-        Exit
+2. **Implement New Methods:**
 
-    When a user makes a withdrawal beyond their available balance (within the credit limit), they should incur interest on the negative balance. You can define an interest rate (e.g., 5% annually) and calculate interest on the negative balance daily.
+   - `get_credit_limit()`: Display the available credit limit.
+   - `make_withdrawal_with_credit(amount)`: Allow users to withdraw an amount up to their credit limit, incurring interest on the negative balance. Ensure that users cannot exceed the credit limit.
+   - `make_repayment(amount)`: Allow users to make repayments to reduce their negative balance and the interest incurred.
 
-    Ensure that the program provides suitable feedback and messages to guide the user through the credit line operations.
+3. **Update the Interactive Program:**
 
-    Continue to use a while loop to allow the user to perform multiple banking operations until they decide to exit.
+   - Update the menu in the interactive program to include the following options:
+     - Check account balance
+     - Make a withdrawal (including credit line)
+     - Make a deposit
+     - Make a repayment
+     - Exit
+
+4. **Interest Calculation:**
+
+   - When a user makes a withdrawal beyond their available balance (within the credit limit), they should incur interest on the negative balance. Define an interest rate (e.g., 5% annually) and calculate interest on the negative balance daily.
+
+5. **Feedback and Messages:**
+
+   - Ensure that the program provides suitable feedback and messages to guide the user through the credit line operations.
