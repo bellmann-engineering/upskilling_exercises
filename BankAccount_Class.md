@@ -11,14 +11,15 @@ Write a C++ program that creates a `BankAccount` class with member variables and
    - `make_withdrawal(amount)`: Deduct a specified amount from the balance.
    - `make_deposit(amount)`: Add a specified amount to the balance.
   
+```mermaid
 classDiagram
   class BankAccount {
-    + balance: double
+    - balance: double
     + check_balance(): void
     + make_withdrawal(amount: double): void
     + make_deposit(amount: double): void
   }
-
+```
 
 3. Create an interactive program that uses the `BankAccount` class to allow users to repeatedly choose from a menu of options:
    - Check account balance
@@ -65,6 +66,22 @@ classDiagram
    - `get_credit_limit()`: Display the available credit limit.
    - `make_withdrawal_with_credit(amount)`: Allow users to withdraw an amount up to their credit limit, incurring interest on the negative balance. Ensure that users cannot exceed the credit limit.
    - `make_repayment(amount)`: Allow users to make repayments to reduce their negative balance and the interest incurred.
+
+```mermaid
+classDiagram
+  class BankAccount {
+    - balance: double
+    - credit_limit: double
+    - interest_rate: double
+    + check_balance(): void
+    + get_credit_limit(): double
+    + make_withdrawal(amount: double): void
+    + make_withdrawal_with_credit(amount: double): void
+    + make_deposit(amount: double): void
+    + make_repayment(amount: double): void
+  }
+
+```
 
 3. **Update the Interactive Program:**
 
