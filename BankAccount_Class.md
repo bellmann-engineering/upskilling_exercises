@@ -10,6 +10,15 @@ Write a C++ program that creates a `BankAccount` class with member variables and
    - `check_balance()`: Display the current balance.
    - `make_withdrawal(amount)`: Deduct a specified amount from the balance.
    - `make_deposit(amount)`: Add a specified amount to the balance.
+  
+classDiagram
+  class BankAccount {
+    + balance: double
+    + check_balance(): void
+    + make_withdrawal(amount: double): void
+    + make_deposit(amount: double): void
+  }
+
 
 3. Create an interactive program that uses the `BankAccount` class to allow users to repeatedly choose from a menu of options:
    - Check account balance
