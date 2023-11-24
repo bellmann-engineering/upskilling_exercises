@@ -2,7 +2,15 @@
 #include <vector>
 
 // ISP Violation
-class CSVProcessor {
+class DataProcessor {
+public:
+    virtual void process(const std::vector<std::string>& data) = 0;
+    virtual void log(const std::string& message) = 0;
+	virtual ~DataProcessor() {}
+};
+
+
+class CSVProcessor : DataProcessor {
 public:
     void process(const std::vector<std::string>& data) {
         std::cout << "Processing CSV data:" << std::endl;
@@ -16,7 +24,7 @@ public:
     }
 };
 
-class JSONProcessor {
+class JSONProcessor : DataProcessor {
 public:
     void process(const std::vector<std::string>& data) {
         std::cout << "Processing JSON data:" << std::endl;
@@ -26,7 +34,7 @@ public:
     }
 
     void log(const std::string& message) {
-        std::cout << "Logging: " << message << std::endl;
+        // 
     }
 };
 
