@@ -1,4 +1,5 @@
 Step-by-step guide to creating a branch from `main`, making a commit on that branch, and then merging it back into `main`:
+<img src="https://learn.microsoft.com/en-us/azure/devops/repos/git/media/branching-guidance/featurebranching.png" />
 
 1. **Ensure you're on the `main` branch**:
     ```bash
