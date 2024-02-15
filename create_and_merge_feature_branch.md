@@ -55,7 +55,8 @@ Step-by-step guide to creating a branch from `main`, making a commit on that bra
 
 This process will create a new branch from `main`, make a commit on that branch, merge the changes back into `main`, and finally push the changes to the remote repository.
 
-** If you want to push the feature branch (for the first time): **
+**If you want to push the feature branch (for the first time):**
+
     ```bash
 git push --set-upstream origin new-feature
     ```
