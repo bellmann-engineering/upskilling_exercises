@@ -57,9 +57,9 @@ This process will create a new branch from `main`, make a commit on that branch,
 
 **If you want to push the feature branch (for the first time):**
 
-    ```bash
+```bash
 git push --set-upstream origin new-feature
-    ```
+```
 
 
 
