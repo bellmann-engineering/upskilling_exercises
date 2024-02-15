@@ -18,30 +18,37 @@ Step-by-step guide to creating a branch from `main`, making a commit on that bra
     This command creates a new branch named `new-feature` and switches to it.
 
 4. **Make changes, stage, and commit**:
-    Make your changes to the code, stage them, and commit:
+   Make your changes to the code:
+   
+    ```bash
+    touch featurefile.txt
+    ```
+
+   
+   Stage them, and commit:
     ```bash
     git add .
     git commit -m "Implemented new feature"
     ```
 
-5. **Switch back to the `main` branch**:
+6. **Switch back to the `main` branch**:
     ```bash
     git checkout main
     ```
 
-6. **Merge the changes from the `new-feature` branch into `main`**:
+7. **Merge the changes from the `new-feature` branch into `main`**:
     ```bash
     git merge new-feature
     ```
 
-7. **Resolve any merge conflicts (if any)**:
+8. **Resolve any merge conflicts (if any)**:
     If there are any conflicts, Git will prompt you to resolve them. After resolving, you need to add the resolved files and commit the merge:
     ```bash
     git add .
     git commit -m "Merged new-feature into main"
     ```
 
-8. **Push changes to the remote repository**:
+9. **Push changes to the remote repository**:
     ```bash
     git push origin main
     ```
